@@ -8,16 +8,26 @@
 #.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
 
 #Funcion con parametro
-def mensaje(msg):
-    print('Hola')
-    print('Consola 🖥')
-    print(msg)
-    print('EXIT')
+# def mensaje(msg):
+#     print('Hola')
+#     print('Consola 🖥')
+#     print(msg)
+#     print('EXIT')
 
-opcion = int(input('Elige una opcion (1, 2, 3): '))
-if opcion == 1:
-    mensaje('Elegiste el número 1')
-elif opcion == 2:
-    mensaje('Elegiste el número 2')
-else:
-    print('Error, escribe una opción correcta')
+# opcion = int(input('Elige una opcion (1, 2, 3): '))
+# if opcion == 1:
+#     mensaje('Elegiste el número 1')
+# elif opcion == 2:
+#     mensaje('Elegiste el número 2')
+# else:
+#     print('Error, escribe una opción correcta')
+
+#.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.
+
+def suma (a, b):
+    print('Sumando dos números :D ')
+    resultado = a + b
+    return resultado
+
+sumatoria = suma(1,4)
+print(sumatoria)
