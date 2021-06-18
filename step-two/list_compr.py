@@ -45,6 +45,8 @@ def run():
     print(cuadrado)
 #-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
 
+def lista():
+     squares = [i for i in range(1,1000000) if i % 36 == 0 and len(str(i)) < 6]
 
 
 
@@ -52,3 +54,4 @@ def run():
 
 if __name__ == '__main__':
     run()
+    list()
