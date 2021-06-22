@@ -1,8 +1,8 @@
 from tkinter import *
-
+from main import root
 #defiendo campos input
 #frame que esta dentro del root
-myFrame = Frame()
+myFrame = Frame(root)
 #empaquetado
 myFrame.pack()
 
@@ -52,3 +52,19 @@ labelAddress.grid(row=4, column=0, sticky="e", padx=10, pady=10)
 
 labelComments = Label(myFrame, text="Comments:")
 labelComments.grid(row=5, column=0, sticky="e", padx=10, pady=10)
+
+#buttons
+footerFrame = Frame(root)
+footerFrame.pack()
+
+btnCreate = Button(footerFrame, text="Create")
+btnCreate.grid(row=1, column=0, sticky="e", padx=10, pady=10)
+
+btnRead = Button(footerFrame, text="Read")
+btnRead.grid(row=1, column=1, sticky="e", padx=10, pady=10)
+
+btnUpdate = Button(footerFrame, text="Update")
+btnUpdate.grid(row=1, column=2, sticky="e", padx=10, pady=10)
+
+btnDelete = Button(footerFrame, text="Delete")
+btnDelete.grid(row=1, column=3, sticky="e", padx=10, pady=10)
