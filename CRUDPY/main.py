@@ -45,6 +45,6 @@ navbarMenu.add_cascade(label="Ayuda", menu=helpMenu)
 
 root.mainloop()
 
-Menu.myFrame()
+
 
 
