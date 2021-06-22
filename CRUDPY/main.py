@@ -5,7 +5,8 @@ from tkinter import *
 from tkinter import messagebox
 #database
 import sqlite3
-
+#importando modulo
+from form import *
 
 root=Tk()
 #definiendo variable para el navbar desde la raiz
@@ -40,6 +41,10 @@ navbarMenu.add_cascade(label="BBDD", menu=bdMenu)
 navbarMenu.add_cascade(label="Borrar", menu=deleteMenu)
 navbarMenu.add_cascade(label="CRUD", menu=crudMenu)
 navbarMenu.add_cascade(label="Ayuda", menu=helpMenu)
+#-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
 
 root.mainloop()
+
+Menu.myFrame()
+
 
