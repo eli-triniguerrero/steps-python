@@ -1,31 +1,14 @@
-clients = ' pablo, ricardo,'
+#TKINTER interfaz por defecto de Python
+#https://docs.python.org/es/3/library/tkinter.html
+from tkinter import *
+# construir mensajes emergentes
+from tkinter import messagebox
+#database
+import sqlite3
 
 
-def create_client(client_name):
-#llama a la variable global para usar dentro de la funcion
-    global clients
-
-    clients += client_name
-    _add_comma
+root=Tk()
 
 
-def list_clients():
-    global clients
-    print(clients)
+root.mainloop()
 
-
-def _add_comma():
-    global clients
-
-    clients += ','
-
-
-#punto de entrada
-if __name__ == '__main__':
-    list_clients()
-
-    create_client('eli')
-
-    print(clients)
-
-    list_clients()
