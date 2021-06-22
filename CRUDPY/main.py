@@ -9,6 +9,8 @@ import sqlite3
 
 root=Tk()
 
+navbarMenu = Menu(root)
+
 
 root.mainloop()
 
