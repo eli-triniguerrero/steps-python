@@ -6,14 +6,14 @@ def run():
     Hola, Persona,
     🦾👽 soy la Consola 
     """)
-    persona_uno = input('¿Cómo te llamas?👁')
-    edad_uno = int(input('¿Cuántos años tienes?'))
+    persona_uno = input('¿Cómo te llamas?👁 ')
+    edad_uno = int(input('¿Cuántos años tienes? '))
     print("""pst, pst)) 
     Hola,Segunda Persona,
     🦾👽 soy la Consola 
     """)
-    persona_dos = input('¿Cuál es tu nombre?👁')
-    edad_dos = int(input('¿Cuál es tu edad?'))
+    persona_dos = input('¿Cuál es tu nombre?👁 ')
+    edad_dos = int(input('¿Cuál es tu edad? '))
     if edad_uno > edad_dos:
         print('🔮¡CHISPAS!🔮')
         print(persona_uno + ' es mayor que tú, ' + persona_dos)
